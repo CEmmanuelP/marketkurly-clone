@@ -1,0 +1,100 @@
+#header {
+  border: 1px solid black;
+}
+
+#headerHeader {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  width: 1050px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+#userMenu {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-around;
+}
+
+#userMenu * {
+  font-family: noto sans;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: -0.3px;
+}
+
+#userMenu .menu {
+  float: left;
+  line-height: 12px;
+  height: 14px;
+  white-space: nowrap;
+  padding: 0 16px 0px 17px;
+}
+
+#userMenu .link_menu {
+  text-decoration: none;
+}
+
+#userMenu a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#userMenu a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* #userMenu a:visited {
+  color: #5f0080;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+/* #userMenu .menu::after {
+  content: '';
+  float: right;
+  width: 1px;
+  height: 13px;
+  background-color: #d8d8d8;
+} */
+
+#userMenu .menu_join {
+  border-right: 1px solid #d8d8d8;
+}
+
+#userMenu .menu_login {
+  border-right: 1px solid #d8d8d8;
+}
+
+#headerLogo {
+  border: 1px solid blue;
+  position: relative;
+  width: 1050px;
+  height: 63px;
+  margin: 0 auto;
+}
+
+#headerLogo .logo {
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  width: 200px;
+  height: 79px;
+  margin-left: -100px;
+}
+
+#headerLogo .logo img {
+  display: block;
+  width: 103px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+#gnb {
+  border: 1px solid red;
+}
