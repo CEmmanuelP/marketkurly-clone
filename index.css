@@ -98,3 +98,10 @@
 #gnb {
   border: 1px solid red;
 }
+
+#gnb #inner_gnb {
+  border: 1px solid burlywood;
+  width: 1050px;
+  height: 56px;
+  margin: 0 auto;
+}
