@@ -97,11 +97,127 @@
 
 #gnb {
   border: 1px solid red;
+  position: relative;
+  min-width: 1050px;
+  background-color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: -0.3px;
 }
 
 #gnb #inner_gnb {
+  position: relative;
   border: 1px solid burlywood;
   width: 1050px;
   height: 56px;
   margin: 0 auto;
+}
+
+#gnb .gnb_main {
+  overflow: hidden;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+#gnb .gnb_main .gnb {
+  float: left;
+  width: 100%;
+}
+
+#gnb .gnb_main .gnb li {
+  float: left;
+}
+
+#gnb .gnb_main .gnb a {
+  float: left;
+  width: 124px;
+  height: 55px;
+  padding: 16px 0 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+}
+
+#gnb .gnb_main .gnb a .txt {
+  font-weight: 700;
+}
+
+#gnb .gnb_main .menu1 a {
+  width: 168px;
+}
+
+#gnb .gnb_main .menu1 .ico {
+  background: url(https://res.kurly.com/pc/service/common/1908/ico_gnb_all_off_x2.png)
+    no-repeat 0 0;
+  background-size: 16px 14px;
+  float: left;
+  width: 16px;
+  height: 14px;
+  margin: 5px 14px 0 0;
+}
+
+#gnb .gnb_main .menu1 .txt {
+  float: left;
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+#gnb .gnb_search {
+  position: absolute;
+  right: 108px;
+  top: 10px;
+  width: 242px;
+}
+
+#gnb .gnb_search .inp_search {
+  width: 170px;
+  height: 36px;
+  padding: 0 60px 0 14px;
+  border: 1px solid #f7f7f6;
+  border-radius: 18px;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #666;
+  line-height: 16px;
+  outline: none;
+}
+
+#gnb .gnb_search .btn_search {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+#gnb .btn_location {
+  position: absolute;
+  right: 51px;
+  top: 10px;
+  width: 36px;
+  height: 36px;
+  border: 0 none;
+  background: url(https://res.kurly.com/pc/ico/2008/ico_delivery_setting.svg?ver=1)
+    no-repeat 50% 50%;
+}
+
+#gnb .cart_count {
+  position: absolute;
+  right: -5px;
+  top: 10px;
+}
+
+/* #gnb .cart_count .inner_cartcount {
+  text-align: center;
+  font-weight: 400;
+} */
+
+#gnb .cart_count .btn_cart {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url(https://res.kurly.com/pc/service/common/2011/ico_cart.svg)
+    no-repeat 50% 50%;
 }
