@@ -102,15 +102,33 @@
     <!-- Main Section -->
     <div id="main">
       <div class="section_login">
-        <h3 class="tit_login"></h3>
+        <h3 class="tit_login">로그인</h3>
         <div class="write_form">
           <form>
             <input type="text" placeholder="아이디를 입력해주세요" />
-            <input type="password" placeholder="비밀번호를 입력해주세요" />
-            <div class="checkbox_save"></div>
-            <button class="btn_type1" type="submit">로그인</button>
+            <input
+              type="password"
+              class="password"
+              placeholder="비밀번호를 입력해주세요"
+            />
+            <div class="checkbox_save">
+              <label class="label_checkbox">
+                <input type="checkbox" id="chk_security" />
+                보안접속
+              </label>
+              <div class="login_search">
+                <a href="#" class="link">아이디 찾기</a>
+                <span class="bar"></span>
+                <a href="#" class="link">비밀번호 찾기</a>
+              </div>
+            </div>
+            <button class="btn_type1" type="submit">
+              <span class="txt_type">로그인</span>
+            </button>
           </form>
-          <a class="btn_type2">회원가입</a>
+          <a class="btn_type2 btn_member">
+            <span class="txt_type">회원가입</span></a
+          >
         </div>
       </div>
     </div>
